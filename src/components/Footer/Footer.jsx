@@ -25,7 +25,7 @@ const Footer = () => {
         <footer className={`w-full ${darkMode ? 'bg-dark-blue' : 'bg-white'}`}>
             <hr className={`w-full bg-light-gray ${darkMode ? "text-gray-text-secondary" : "text-light-gray"}`} />
             <div className={`flex justify-between items-center gap-6 p-6 sm-max:flex-col ${darkMode ? 'bg-dark-blue text-white' : 'bg-white text-dark-gray-text'}`}>
-                <div>Copyright © 2024, Derechos Reservados</div>
+                <div>Copyright © 2024, Derechos Reservados Luis Levy</div>
                 <div>Powered by: <span className='font-bold'>Luis Levy</span></div>
                 <div className='flex gap-4 justify-center items-center'>
                     <a target='_blank' rel='noreferrer' href={'https://www.linkedin.com'}>
